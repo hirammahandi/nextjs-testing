@@ -5,7 +5,7 @@ test('should renders "Hello World"', () => {
   //* first render a component that we going to test
   render(<Hello />);
 
-  //* getting the element redered by text that be should in the component
+  //* getting the element redered by text that be should in the component on the screen view
   const myElement = screen.getByText("Hello World");
 
   //* expect if the element getted by text is in decument with the next function
